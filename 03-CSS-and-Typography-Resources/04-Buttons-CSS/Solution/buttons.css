@@ -1,11 +1,10 @@
 body {
     background: #EEE;
 }
-body button {
+body .button {
     cursor: pointer;
-    outline-style: none;
+    outline: none;
 }
-
 button, a {
     border: 2px rgb(51, 51, 51) solid;
     border-radius: 10px;
@@ -13,16 +12,19 @@ button, a {
 button {
     background-color: #EEE;
 }
-.fill {
-    background-color: rgb(51, 51, 51);
+.button.fill.hover {
     color: rgb(251, 251, 251);
 }
-button.hover:hover {
+body .hover {
+    color: rgb(51, 51, 51);
+}
+button.fill.hover:hover {
     background-color: rgb(0, 102, 0);
     border: 2px rgb(0, 102, 0) solid;
+
 }
 button.empty-hover:hover{
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(51, 51, 51);
     color: rgb(0, 102, 0);
     border: 2px rgb(0, 102, 0) solid;
 }
