@@ -1,0 +1,18 @@
+html {
+    background-color: rgb(235,235,235);
+}
+
+.gallery li{
+    list-style-type: none;
+    width: 31%;
+    display: inline-block;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    margin: 3px;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+}

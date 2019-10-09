@@ -1,0 +1,32 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+hr {
+    border-width: 1px;
+    border-color: black;
+}
+
+.site-heading {
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+h1, nav {
+    display: inline-block;
+}
+
+li, a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 5px;
+    color: green;
+}
+
