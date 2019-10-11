@@ -16,10 +16,13 @@ img {
     width: 400px;
 }
 
-header {
+
+
+.header-sections p {
     display: inline-block;
+    width: 60%;
 }
 
-p, aside header {
-    display: inline-block;
+.header-sections aside {
+    float: right;
 }
