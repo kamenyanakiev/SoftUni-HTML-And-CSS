@@ -1,0 +1,152 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+    background-color: #e8e8e8;
+}
+
+body, form, input, textarea, option, select, button {
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 2.5em;
+}
+
+blockquote,
+h1, h2, h3, h4, h5, h6 {
+    font: 1em/1.2 Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 0.5rem;
+    padding-top: 1.5rem;
+    font-weight: normal;
+}
+
+h1 { font-size: 2.6em; }
+
+h2 { font-size: 2.0em; }
+
+h3 { font-size: 1.6em; }
+
+h4 { font-size: 1.4em; }
+
+h5 { font-size: 1.2em; }
+
+h6 { font-size: 1.0em; }
+
+blockquote {
+    padding: 0 2.5em;
+    border-left: 2px rgb(221,221,221) solid;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.quote-author {
+    text-align: right;
+}
+
+p.site-title {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 45px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+hr {
+    border-color: black;
+}
+
+.first-section{
+    display: inline-block;
+}
+
+.first-section img {
+    float: right;
+    padding: 0.5em;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 1em;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.second-section p{
+    display: inline-block;
+    width: 100%;
+}
+.second-section .half-section-paragraph{
+    width: 50%;
+}
+
+.second-section .half-section-quote {
+    float: right;
+    width: 30%;
+}
+
+.third-section {
+    width: 100%;
+}
+
+.third-section img {
+    float: left;
+    padding: 0.5em;
+    background-color: white;
+    border: 2px solid black;
+    margin-right: 1em;
+}
+
+main {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    margin-left: 5px;
+    width: 20%;
+}
+
+aside ul {
+    list-style-type: square;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: green;
+}
+
+img {
+    box-shadow: 0 0 1rem 0.1em rgba(0,0,0,0.3);
+}
+
+header h1, nav{
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+}
+
+.title-list li{
+    margin-top: 5em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 5px;
+    color: green;
+}

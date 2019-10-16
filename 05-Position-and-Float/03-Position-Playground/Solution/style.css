@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.viewport {
+    height: 100vh;
+    background: lightblue;
+    position: relative;
+}
+
+.viewport:nth-child(even) {
+    background-color: lightsalmon;
+}
+
+.card {
+    color: #FFF;
+    font-size: 3em;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12em;
+    overflow: hidden;
+    border-radius: 0.2em;
+    box-shadow: 0 0 1rem 0.1em rgba(0,0,0,0.2);
+}
+
+.card:before {
+    display: block;
+    content: '';
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.4) inset;
+    z-index: 10;
+    position: relative;
+    pointer-events: none;
+}
+
+.card:hover:before {
+    box-shadow: 0 0 2em 0.2em rgba(0,0,0,0.5) inset;
+}
+
+.card.ar-16x9:before {
+    padding-top: calc((9 / 16) * 100%);
+}
+
+.card.ar-9x16 {
+    width: 8em;
+}
+
+.card.ar-9x16:before {
+    padding-top: calc((16 / 9) * 100%);
+}
+
+.card .media {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: blue;
+}
+
+.card.portrait img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.card.landscape img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.card .icon {
+    line-height: 1;
+    position: absolute;
+    color: #FFF;
+    bottom: 1.5em;
+    right: 1.5em;
+}
