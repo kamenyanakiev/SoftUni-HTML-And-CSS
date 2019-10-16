@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 1;
+}
+
+.container {
+    margin: 2em;
+    position: relative;
+}
+
+.snippit {
+    text-align: right;
+}
+
+.snippit-btn {
+    font-size: 0.7em;
+    color: white;
+    background-color: #51b8e8;
+    border-style: none;
+    padding: 0.7em 1em;
+    border-radius: 6px 6px 0 0;
+}
+
+.details li {
+    list-style: none;
+    padding: 0.4em;
+    margin: 0.08em;
+    background-color: #e8e8e8;
+}
+
+.icon {
+    color: #1ab059;
+    padding-right: 1.5em;
+    float: right;
+}

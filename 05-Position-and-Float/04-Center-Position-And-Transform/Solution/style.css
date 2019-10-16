@@ -3,38 +3,40 @@
     margin: 0;
 }
 
+html, body {
+    height: 100vh;
+}
+
 h2 {
     font-size: 1em/1.2;
     font-family: Georgia, serif;
 }
 
 body {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     background: rgb(238, 238, 238);
 }
 
 .card {
-    position: relative;
-    top: 70%;
-    left: 50%;
+    width: 500px;
 }
 
 .card .image {
-    position: absolute;
     overflow: hidden;
     border-radius: 0.3em;
     box-shadow: 0 0 1rem 0.1em rgba(0,0,0,0.2);
 }
 
 .card .details {
-    position: absolute;
-    top: 500px;
     background: rgb(255, 255, 255);
 }
 
 .details button {
     margin: 1em 2em;
-    float: right;
 }
 
 .details h2 {
@@ -43,6 +45,10 @@ body {
 
 .details p {
     padding: 1em;
+}
+
+.button-container {
+    text-align: right;
 }
 
 button {
