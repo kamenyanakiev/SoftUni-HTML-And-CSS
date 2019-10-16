@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+i {
+    color: black;
+    padding: 10px;
+    background: #ededed;
+    border-radius: 50%;
+}
+
+.facebook:hover i{
+    color: #4267B2;
+}
+
+.twitter:hover i {
+    color: #1DA1F2;
+}
+
+.google-plus:hover i {
+    color: #DD4B39;
+}
+
+.linked-in:hover i {
+    color: #2867B2;
+}
+
+.instagram:hover i {
+    color: #5851DB;
+}
