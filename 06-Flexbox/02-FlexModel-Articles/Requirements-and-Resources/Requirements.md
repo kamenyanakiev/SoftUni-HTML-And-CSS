@@ -1,4 +1,4 @@
-# 02 - FlexModel Articles
+﻿# 02 - FlexModel Articles
 ------
 Problems for in-class lab for the [“HTML & CSS”](https://softuni.bg/trainings/2375/html-and-css-may-2019) course @ **SoftUni**.
 
