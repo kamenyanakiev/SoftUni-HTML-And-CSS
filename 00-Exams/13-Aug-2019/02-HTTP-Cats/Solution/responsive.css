@@ -1,3 +1,22 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+  }
+
+  .spotlight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spotlight > * {
+    width: 100%;
+    text-align: center;
+  }
 }
