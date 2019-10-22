@@ -10,12 +10,49 @@ html {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 span {
     border: 1px black solid;
     text-align: center;
-    padding: 10px 30px;
-    margin: 0.4em;
+    width: 50%;
+    height: 11%;
+    margin: 2px;
+}
+
+.first-letter {
+    order: 0;
+}
+
+.second-letter {
+    order: 1;
+}
+
+.third-letter {
+    order: 2;
+}
+
+.forth-letter {
+    order: 3;
+}
+
+.fifth-letter {
+    order: 4;
+}
+
+.sixth-letter {
+    order: 5;
+}
+
+.seventh-letter {
+    order: 6;
+}
+
+.eight-letter {
+    order: 7;
+}
+
+.second-row {
+    order: 10;
 }
