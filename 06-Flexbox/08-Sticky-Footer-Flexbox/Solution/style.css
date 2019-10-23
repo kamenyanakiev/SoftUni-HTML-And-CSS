@@ -1,0 +1,42 @@
+body {
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 100px
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+p.site-title {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+p {
+    padding-bottom: 2rem;
+}
+
+h1, p {
+    padding-left: 1rem;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+}
