@@ -1,3 +1,52 @@
+@import "reset.css";
+@import "layout.css";
+@import "typography.css";
+
 body {
     background-color: rgb(238, 238, 238);
+}
+
+.cards-layout {
+    display: flex;
+}
+
+.masonry {
+    max-height: 220vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    background: white;
+    width: 30%;
+    margin: 5px;
+}
+
+.card-image {
+    border-radius: 6px 6px 0 0;
+}
+
+.card-title {
+    font-weight: bold;
+    padding: 1rem 0 0 1rem;
+}
+
+.card-details {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.card-more {
+    border-top: 2px solid lightgray;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 0;
 }
