@@ -1,0 +1,175 @@
+@import "reset.css";
+@import "layout.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface', cursive;
+    color: #363434;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    color: #363434;
+}
+
+.main-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(image/image.jpg);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.main {
+    margin: 2rem;
+    padding: 1rem;
+    padding-right: 3.5rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    align-self: flex-start;
+}
+
+.company-name {
+    border-top: 2px solid white;
+    margin-top: 0.5rem;
+    padding-top: 0.4rem;
+    font-size: 14px;
+    color: #363434;
+}
+
+.project-details {
+    padding: 1rem;
+    margin-right: 2rem;
+    text-align: end;
+    align-self: flex-end;
+    max-width: 30%;
+    background: linear-gradient(90deg, rgba(167,155,139,1) 0%, rgba(203,211,213,1) 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    text-shadow: 2px 2px #858585;
+}
+
+.project-details > p {
+    color: white;
+}
+
+.project-details > i {
+    color: gray;
+}
+
+.details-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-details h1 {
+    text-transform: uppercase;
+}
+
+.main-details {
+    flex: 1 1 73%;
+    background: #F2F0F3;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-sidebar {
+    flex: 1 1 27%;
+    background: #BAB1AD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.services {
+    padding: 2rem 4rem 0 4rem;
+    flex: 1 1 60%;
+}
+
+.contacts {
+    flex: 1 1 40%;
+}
+
+.services-details {
+    margin-top: 2rem;
+}
+
+.type-of-service{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 0.1rem 0 0.5rem;
+}
+
+.contact-text {
+    padding: 2rem 4rem 0 4rem;
+    border-bottom: 2px solid #363434;
+}
+
+.contacts-list {
+    padding: 1.5rem 4rem 0 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-letters {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contacts-list div {
+    padding: 5px;
+}
+
+.email {
+    padding: 1.5rem 4rem 0 4rem;
+}
+
+button {
+    margin-left: 0.5rem;
+    height: 2.7rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #67784D;
+    color: white;
+    padding: 0 2rem;
+}
+
+.input-email {
+    width: 40%;
+    height: 1.7rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #BAB1AD;
+    padding: 0.5rem;
+}
+
+input[type="email"]::placeholder {
+    color: #FFFFFF;
+}
+
+.details-line {
+    margin: 0 0 2rem 1rem;
+}
+
+.details-numbers {
+    font-size: 4em;
+    font-weight: lighter;
+    color: white;
+}
+
+.details-more {
+    color: #363434;
+    text-transform: uppercase;
+}

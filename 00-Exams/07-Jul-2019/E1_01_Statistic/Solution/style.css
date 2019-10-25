@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 5rem;
+    background: linear-gradient(rgba(50,50,255,0.5), rgba(50,50,255,0.5)), url(images/image.jpg);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 290px;
+    position:relative;
+}
+
+i {
+    color: orange;
+}
+
+p {
+    color: white;
+}
+
+.employees {
+    margin-left: 1rem;
+}
+
+.shipments {
+    margin-right: 1rem;
+}
+
+.employees, .shipments, .km-week, .clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cross {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.4rem;
+}
