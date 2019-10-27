@@ -1,0 +1,60 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body, form, input, textarea, option, select, button {
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 2.5em;
+}
+
+p.site-title {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 45px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
