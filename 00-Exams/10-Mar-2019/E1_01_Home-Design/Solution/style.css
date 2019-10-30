@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Courgette', cursive;
+    background: #F5F5F5;
+}
+
+body {
+    margin: 3rem;
+}
+
+.site-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.site-title {
+    align-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    letter-spacing: 3px;
+}
+
+.secondary-title {
+    align-self: flex-end;
+    color: #CB2027;
+    margin-bottom: 2rem;
+}
+
+.main-title {
+    padding: 0 1.3rem;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-container {
+    flex: 0 0 30%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.section-wrapper > div + div {
+    margin-left: 1.5rem;
+}
+
+.text-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.section-title {
+    padding: 0.5rem 0;
+}
+
+.section-description {
+    text-align: center;
+    margin: 1rem;
+    padding-top: 1rem;
+    border-top: 2px solid #DE7175;
+}
+
+.section-continue {
+    padding: 1.5rem 0;
+}
+
+.continue-button {
+    color: #CB2027;
+}
