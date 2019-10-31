@@ -1,0 +1,56 @@
+@media screen and (max-width: 1100px) {
+    .team-description-wrapper > ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .team-description-wrapper > ul > li {
+        flex: 0 0 50%;
+    }
+
+    .blog-list {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .item {
+        flex: 0 0 48%;
+        align-self: center;
+    }
+
+    .item + .item {
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header > nav, header > nav > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .team-description-wrapper > ul > li {
+        flex: 0 0 30%;
+    }
+
+    header > nav > ul > li {
+        padding: 0;
+        padding-top: 0.3rem;
+    }
+
+    header > nav > img {
+        margin-bottom: 0.5rem;
+    }
+
+    .choose-us > ul {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .choose-us > ul > li {
+        margin: 0 10rem;
+    }
+
+}

@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+html {
+    font: 14px/1.5;
+}
+
+body, button, input, select, option {
+    font: inherit;
+}
+
