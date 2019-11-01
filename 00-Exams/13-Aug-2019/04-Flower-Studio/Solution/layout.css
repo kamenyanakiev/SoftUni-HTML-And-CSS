@@ -1,0 +1,186 @@
+.site-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.site-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.left-ul,
+.right-ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.left-ul > li {
+  margin-right: 2rem;
+}
+.right-ul > li {
+  padding: 0 1rem;
+  border-right: 0.2px solid #dedede;
+}
+.main-picture {
+  background-image: url("../img/residential-banner-2.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.main-picture-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.title-2 {
+  padding-bottom: 2rem;
+}
+
+.main-picture-container > p:last-child {
+  padding-top: 2rem;
+}
+
+.fa-horizontal-rule{
+  color: black;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+  background: white;
+  justify-content: center;
+}
+
+.main-content > .main-content-title {
+  flex: 0 0 100%;
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 2rem 0;
+}
+
+.content-container {
+  flex: 0 0 15%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.content-container + .content-container {
+  margin-left: 2rem;
+}
+
+.container-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.container-number:before, .container-number:after {
+  height: 2px;
+  width: 30px;
+  background-color: gray;
+  content: '';
+  display: block;
+  margin: 0.5rem;
+}
+
+.site-gallery {
+  display: flex;
+  justify-content: center;
+  background-color: #EDEDED;
+}
+
+.site-gallery-container {
+  margin: 4rem;
+}
+
+.gallery-image + .gallery-image {
+  margin-left: 0.5rem;
+}
+
+.site-footer {
+  padding-top: 2rem;
+  background-color: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.footer-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid #5a5a5a;
+  padding-bottom: 2rem;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  flex: 0 0 25%;
+}
+
+.list-container > ul > li {
+  margin: 0.3rem 0;
+}
+
+.fa-circle {
+  color: white;
+  font-size: 12px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.footer-list-ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.footer-list-ul > li+li {
+  margin-left: 5px;
+}
+
+.footer-email {
+  flex: 0 0 20%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.subscribe-p {
+  text-align: center;
+}
+
+.subscribe-input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 70%;
+}
+
+.subscribe-button {
+  padding: 0.5rem;
+  color: white;
+  border: 1px solid #FA5B3C;
+  background: #FA5B3C;
+  width: fit-content;
+}
+
+.footer-terms {
+  flex: 0 0 100%;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
