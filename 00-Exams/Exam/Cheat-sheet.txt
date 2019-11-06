@@ -1,0 +1,15 @@
+FONT AWESOME IMPORT:
+<script src="https://use.fontawesome.com/8e8edc751e.js"></script>
+
+With fas --> <script src="https://kit.fontawesome.com/597dde3a29.js" crossorigin="anonymous"></script>
+
+Google-fonts:
+
+Roboto IMPORT:
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+font-family: 'Roboto', sans-serif;
+
+PT sans IMPORT:
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+font-family: 'PT Sans', sans-serif;
+
